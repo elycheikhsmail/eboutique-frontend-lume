@@ -1,0 +1,56 @@
+--- 
+vente:
+  prix: "1000"
+  desc: dfdssssssssssss
+  dateAdd: 2022
+---
+
+
+
+{% block content %}
+
+    <header class="bg-white shadow">
+    <div class="max-w-7xl mx-auto py-6 px-4 sm:px-6 lg:px-8">
+      <h1 class="text-3xl font-bold text-gray-900"> details </h1>
+    </div>
+  </header>
+  
+<div class="flex justify-center " >
+{# class="flex justify-center "p-6  max-w-sm min-w-max#}
+  <article class="block p-6 rounded-lg shadow-lg bg-white max-w-max ">
+    <h5 class="text-gray-900 text-xl leading-tight font-medium mb-2">Card title</h5>
+    <p class="text-gray-700 text-base mb-4">
+     <div>
+						       voiture/ nktt
+						<br>
+						<div>
+							{{ vente.desc }}
+						</div>
+
+						<div style="text-align:center;">
+							<div>
+								<sup>  prix  </sup>
+								<b style="font-size:30px;">
+									{{vente.prix}}
+								</b>
+								<sub>
+									<small>  ancien ouguiya  </small>
+								</sub>
+							</div>
+							
+						</div>
+						<small>   publier le : 
+						{{ vente.dateAdd}}</small>
+						</div>
+    </p>
+    
+  </article>
+	</div>	
+ 
+
+	
+	    
+ 
+  
+
+{% endblock %}

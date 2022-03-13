@@ -1,0 +1,12 @@
+import { json2yaml } from 'https://deno.land/x/json2yaml/mod.ts';
+
+const jsonString = '{"hello": "world"}';
+const yamlString = json2yaml(jsonString);
+
+console.log(yamlString);
+
+// deno run convert.ts
+// json2yaml -- input.json
+ json2yaml -- mydata/ventes.json
+
+ json2yaml -- mydata/vente.json

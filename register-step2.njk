@@ -1,0 +1,102 @@
+--- 
+---
+
+
+
+{% block content %}
+
+    <header class="bg-white shadow">
+    <div class="max-w-7xl mx-auto py-6 px-4 sm:px-6 lg:px-8">
+      <h1 class="text-3xl font-bold text-gray-900"> register (2/2) </h1>
+    </div>
+  </header>
+ 
+<div class="block p-6 rounded-lg shadow-lg bg-white max-w-max">
+  <form>
+  <div>
+  vous voulez vous inscrire avec le numero de tel : 33115566 <br>
+
+pour continue reseigner les informations suivantes
+  </div>
+ 
+ 
+    <div class="form-group mb-6">
+      <label for="exampleInputEmail1" class="form-label inline-block mb-2 text-gray-700">
+      code que vous vous recevez par sms
+      </label>
+      <input type="number" class="form-control
+        block
+        w-full
+        px-3
+        py-1.5
+        text-base
+        font-normal
+        text-gray-700
+        bg-white bg-clip-padding
+        border border-solid border-gray-300
+        rounded
+        transition
+        ease-in-out
+        m-0
+        focus:text-gray-700 focus:bg-white focus:border-blue-600 focus:outline-none"
+         id="exampleInputEmail1"
+          placeholder="Enter le code">
+      <small id="emailHelp" class="block mt-1 text-xs text-gray-600">
+      code de 4 chiffre comme 1234
+     </small>
+    </div>
+    <div class="form-group mb-6">
+      <label for="exampleInputEmail1" class="form-label inline-block mb-2 text-gray-700">
+      mot de pass
+      </label>
+      <input type="password" class="form-control
+        block
+        w-full
+        px-3
+        py-1.5
+        text-base
+        font-normal
+        text-gray-700
+        bg-white bg-clip-padding
+        border border-solid border-gray-300
+        rounded
+        transition
+        ease-in-out
+        m-0
+        focus:text-gray-700 focus:bg-white focus:border-blue-600 focus:outline-none"
+         id="exampleInputEmail1"
+          placeholder="Enter votre password">
+      <small id="emailHelp" class="block mt-1 text-xs text-gray-600">
+      ne vous inquietez pas si vous oubliez votre mot de passe vous pouvez le
+      recuper assez facilement
+     </small>
+    </div>
+   
+ 
+     <a href="/mypage"   class="
+      px-6
+      py-2.5
+      bg-blue-600
+      text-white
+      font-medium
+      text-xs
+      leading-tight
+      uppercase
+      rounded
+      shadow-md
+      hover:bg-blue-700 hover:shadow-lg
+      focus:bg-blue-700 focus:shadow-lg focus:outline-none focus:ring-0
+      active:bg-blue-800 active:shadow-lg
+      transition
+      duration-150
+      ease-in-out"
+     >
+            submit 
+            </a>
+  </form>
+</div>
+
+ 
+  
+
+{% endblock %}
